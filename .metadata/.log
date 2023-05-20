@@ -1,0 +1,1335 @@
+!SESSION 2023-03-16 12:59:36.831 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\santo\eclipse-workspace-3 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-16 12:59:42.212
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-16 12:59:42.212
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-16 12:59:42.212
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-16 12:59:47.775
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\santo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:00:45.232
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:00:45.233
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:00:45.237
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:00:45.237
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:00:45.706
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:00:45.706
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:00:49.321
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:00:49.322
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:00:50.219
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:00:50.219
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:00.008
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:01:00.012
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-03-16 13:01:07.580
+!MESSAGE Could not download sources for org.apache.poi:poi-ooxml-schemas:4.1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:587)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:556)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:541)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-03-16 13:01:07.580
+!MESSAGE Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-03-16 13:01:07.580
+!MESSAGE Missing org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:01:13.547
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:01:13.551
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:14.291
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:01:14.293
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:15.215
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:01:15.215
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:01:18.136
+!MESSAGE The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:32.547
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): LatestCucumber6WithPOM-master does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2503)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2444)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2517)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-03-16 13:01:32.548
+!MESSAGE LatestCucumber6WithPOM-master does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-03-16 13:01:32.679
+!MESSAGE Could not download javadoc for org.apache.poi:poi-ooxml-schemas:4.1.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:587)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:556)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:541)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-03-16 13:01:32.680
+!MESSAGE Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-03-16 13:01:32.680
+!MESSAGE Missing org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.2
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:33.885
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:33.885
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:38.922
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:38.923
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:41.045
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:41.046
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:43.394
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:43.394
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:43.549
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:43.552
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:44.998
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:44.998
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:01:47.259
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:01:47.282
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:49.114
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:49.114
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:50.426
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:50.426
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:01:52.178
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:01:52.178
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:01:52.626
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:02:00.005
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:02:00.009
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:00.362
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201501120825/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:00.969
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201503101518/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:01.537
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201602071612/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:01.724
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201608091842/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:02.032
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201705301746/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-03-16 13:02:03.440
+!MESSAGE Could not download sources for net.sf.json-lib:json-lib:2.4jdk15
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact net.sf.json-lib:json-lib:jar:sources:2.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:587)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:556)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:541)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing net.sf.json-lib:json-lib:jar:sources:2.4
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-03-16 13:02:03.441
+!MESSAGE Could not resolve artifact net.sf.json-lib:json-lib:jar:sources:2.4
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-03-16 13:02:03.441
+!MESSAGE Missing net.sf.json-lib:json-lib:jar:sources:2.4
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:16.034
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/orbit/downloads/drops/R20160221192158/repository/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:22.570
+!MESSAGE Using unsafe http transport to retrieve http://findbugs.cs.umd.edu/eclipse, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:48.261
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/testng-team/testng-p2-release/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:50.922
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/testng-team/testng-p2-release/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:02:52.251
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/testng-team/testng-p2-release/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:00.825
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:00.886
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:00.936
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:00.966
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:00.999
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.021
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.054
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.079
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.102
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.138
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.161
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.327
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.350
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.381
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.402
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.437
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.460
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.498
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.522
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.557
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.579
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.611
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.640
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.674
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.697
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:01.733
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.6.1.r202207070546, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:03.212
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:06.119
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:07.590
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:12.743
+!MESSAGE Using unsafe http transport to retrieve http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:14.426
+!MESSAGE Using unsafe http transport to retrieve http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:15.222
+!MESSAGE Using unsafe http transport to retrieve http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-03-16 13:03:25.402
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://dl.bintray.com/pmd/pmd-eclipse-plugin/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:386)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:277)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:518)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor89.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:518)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:233)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:299)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:357)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:434)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:520)
+	at org.eclipse.equinox.internal.p2.operations.PlannerResolutionJob.runModal(PlannerResolutionJob.java:80)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:118)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.ResolutionResultsWizardPage.lambda$2(ResolutionResultsWizardPage.java:193)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-03-16 13:03:25.402
+!MESSAGE No repository found at https://dl.bintray.com/pmd/pmd-eclipse-plugin/updates/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:25.421
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:26.846
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:28.767
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sourceforge.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:29.297
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sourceforge.net/update/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:29.779
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sourceforge.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:36.689
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sf.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:37.998
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sf.net/update/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:38.970
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sf.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:43.988
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/photon, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:49.231
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/photon/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:03:55.618
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/photon/201806271001/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:04:19.332
+!MESSAGE Using unsafe http transport to retrieve http://beust.com/eclipse, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:04:20.113
+!MESSAGE Using unsafe http transport to retrieve http://beust.com/eclipse/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:04:20.378
+!MESSAGE Using unsafe http transport to retrieve http://beust.com/eclipse, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:05:22.140
+!MESSAGE Error
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:630)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:60)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2023-03-16 13:05:22.141
+!MESSAGE src/test/java/parallel [in LatestCucumber6WithPOM-master] is not on its project's build path
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:28.816
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/tools/orbit/downloads/drops/R20160221192158/repository/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:34.067
+!MESSAGE Using unsafe http transport to retrieve http://findbugs.cs.umd.edu/eclipse, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.530
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.579
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.607
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.646
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.677
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.696
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.724
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.741
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.767
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.794
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.815
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.848
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.866
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.892
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.909
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.938
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.963
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:56.996
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.023
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.080
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.103
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.134
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.156
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.185
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.206
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.6.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:05:57.233
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.6.1.r202207070546, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:02.083
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:04.896
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:06.318
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:11.632
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201501120825/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:11.899
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201503101518/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:12.183
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201602071612/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:12.481
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201608091842/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:12.759
+!MESSAGE Using unsafe http transport to retrieve http://m2e-code-quality.github.io/m2e-code-quality/site/1.0.0.201705301746/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:15.772
+!MESSAGE Using unsafe http transport to retrieve http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:17.617
+!MESSAGE Using unsafe http transport to retrieve http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:18.459
+!MESSAGE Using unsafe http transport to retrieve http://sourceforge.net/projects/pmd/files/pmd-eclipse/update-site, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-03-16 13:06:27.787
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://dl.bintray.com/pmd/pmd-eclipse-plugin/updates/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:386)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:277)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:177)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:99)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:120)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor89.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:446)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:585)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:131)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:125)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedRepository(ProvisioningContext.java:189)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:163)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:149)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.getArtifactRepositories(DownloadManager.java:110)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:95)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.m2e.internal.discovery.operation.RestartInstallOperation$UpdateMavenConfigurationProvisioningJob.runModal(RestartInstallOperation.java:117)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2023-03-16 13:06:27.788
+!MESSAGE No repository found at https://dl.bintray.com/pmd/pmd-eclipse-plugin/updates/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:27.790
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:29.208
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.2/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:35.447
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sourceforge.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:36.070
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sourceforge.net/update/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:36.474
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sourceforge.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:39.371
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sf.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:40.551
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sf.net/update/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:41.552
+!MESSAGE Using unsafe http transport to retrieve http://eclipse-cs.sf.net/update, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:46.325
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/photon, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:49.286
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/photon/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:06:54.061
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/photon/201806271001/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.testng.eclipse 4 4 2023-03-16 13:07:21.837
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:07:23.483
+!MESSAGE Using unsafe http transport to retrieve http://beust.com/eclipse, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:07:24.265
+!MESSAGE Using unsafe http transport to retrieve http://beust.com/eclipse/artifacts.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-16 13:07:24.529
+!MESSAGE Using unsafe http transport to retrieve http://beust.com/eclipse, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.testng.eclipse 1 0 2023-03-16 13:10:41.070
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\santo\eclipse\java-2022-092\eclipse\configuration\org.eclipse.osgi\440\0\.cp\lib\testng-remote.jar C:\Users\santo\eclipse-workspace-3\MasterFramework-main\target\test-classes C:\Users\santo\eclipse-workspace-3\MasterFramework-main\target\classes C:\MyRepo\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar C:\MyRepo\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar C:\MyRepo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\MyRepo\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar C:\MyRepo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar C:\MyRepo\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar C:\MyRepo\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar C:\MyRepo\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar C:\MyRepo\org\reflections\reflections\0.10.2\reflections-0.10.2.jar C:\MyRepo\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar C:\MyRepo\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\MyRepo\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar C:\MyRepo\br\com\six2six\fixture-factory\3.1.0\fixture-factory-3.1.0.jar C:\MyRepo\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar C:\MyRepo\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar C:\MyRepo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar C:\MyRepo\br\com\six2six\bfgex\1.1.1\bfgex-1.1.1.jar C:\MyRepo\log4j\log4j\1.2.14\log4j-1.2.14.jar C:\MyRepo\org\apache\commons\commons-math\2.2\commons-math-2.2.jar C:\MyRepo\com\rubiconproject\oss\jchronic\0.2.6\jchronic-0.2.6.jar C:\MyRepo\junit\junit\4.8.1\junit-4.8.1.jar C:\MyRepo\com\thoughtworks\paranamer\paranamer\2.5\paranamer-2.5.jar C:\MyRepo\net\vidageek\mirror\1.6.1\mirror-1.6.1.jar C:\MyRepo\com\machinezoo\noexception\noexception\1.7.1\noexception-1.7.1.jar C:\MyRepo\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar C:\MyRepo\org\awaitility\awaitility\4.1.1\awaitility-4.1.1.jar C:\MyRepo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\MyRepo\io\appium\java-client\8.3.0\java-client-8.3.0.jar C:\MyRepo\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar C:\MyRepo\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar C:\MyRepo\com\beust\jcommander\1.82\jcommander-1.82.jar C:\MyRepo\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar C:\MyRepo\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar C:\MyRepo\com\google\auto\auto-common\1.2\auto-common-1.2.jar C:\MyRepo\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar C:\MyRepo\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar C:\MyRepo\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar C:\MyRepo\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar C:\MyRepo\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar C:\MyRepo\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar C:\MyRepo\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar C:\MyRepo\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar C:\MyRepo\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar C:\MyRepo\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar C:\MyRepo\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar C:\MyRepo\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar C:\MyRepo\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar C:\MyRepo\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar C:\MyRepo\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar C:\MyRepo\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar C:\MyRepo\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar C:\MyRepo\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar C:\MyRepo\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar C:\MyRepo\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar C:\MyRepo\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar C:\MyRepo\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar C:\MyRepo\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar C:\MyRepo\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar C:\MyRepo\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar C:\MyRepo\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar C:\MyRepo\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar C:\MyRepo\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar C:\MyRepo\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar C:\MyRepo\com\google\code\gson\gson\2.10\gson-2.10.jar C:\MyRepo\cglib\cglib\3.3.0\cglib-3.3.0.jar C:\MyRepo\org\ow2\asm\asm\7.1\asm-7.1.jar C:\MyRepo\commons-validator\commons-validator\1.7\commons-validator-1.7.jar C:\MyRepo\commons-digester\commons-digester\2.1\commons-digester-2.1.jar C:\MyRepo\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar C:\MyRepo\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar C:\MyRepo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar C:\MyRepo\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar C:\MyRepo\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\MyRepo\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\MyRepo\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\MyRepo\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar C:\MyRepo\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar C:\MyRepo\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar C:\MyRepo\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\MyRepo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\MyRepo\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\MyRepo\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\MyRepo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\MyRepo\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar C:\MyRepo\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar C:\MyRepo\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar C:\MyRepo\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar C:\MyRepo\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar C:\MyRepo\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar C:\MyRepo\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar C:\MyRepo\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar C:\MyRepo\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar C:\MyRepo\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar C:\MyRepo\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar C:\MyRepo\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar C:\MyRepo\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\MyRepo\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\MyRepo\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar C:\MyRepo\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar C:\MyRepo\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\MyRepo\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar C:\MyRepo\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar C:\MyRepo\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar C:\MyRepo\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar C:\MyRepo\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar C:\MyRepo\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar C:\MyRepo\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\MyRepo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\MyRepo\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar C:\MyRepo\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar C:\MyRepo\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\MyRepo\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\MyRepo\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\MyRepo\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\MyRepo\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\MyRepo\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\MyRepo\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\MyRepo\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\MyRepo\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\MyRepo\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\MyRepo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\MyRepo\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\MyRepo\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\MyRepo\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar C:\MyRepo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar C:\MyRepo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar C:\MyRepo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar C:\MyRepo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50410 -protocol json -d C:\Users\santo\eclipse-workspace-3\MasterFramework-main\test-output C:\Users\santo\eclipse-workspace-3\MasterFramework-main\testng.xml
+java -ea -classpath C:\Users\santo\eclipse\java-2022-092\eclipse\configuration\org.eclipse.osgi\440\0\.cp\lib\testng-remote.jar:C:\Users\santo\eclipse-workspace-3\MasterFramework-main\target\test-classes:C:\Users\santo\eclipse-workspace-3\MasterFramework-main\target\classes:C:\MyRepo\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar:C:\MyRepo\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar:C:\MyRepo\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\MyRepo\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar:C:\MyRepo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar:C:\MyRepo\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar:C:\MyRepo\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar:C:\MyRepo\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar:C:\MyRepo\org\reflections\reflections\0.10.2\reflections-0.10.2.jar:C:\MyRepo\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar:C:\MyRepo\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\MyRepo\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar:C:\MyRepo\br\com\six2six\fixture-factory\3.1.0\fixture-factory-3.1.0.jar:C:\MyRepo\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar:C:\MyRepo\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar:C:\MyRepo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar:C:\MyRepo\br\com\six2six\bfgex\1.1.1\bfgex-1.1.1.jar:C:\MyRepo\log4j\log4j\1.2.14\log4j-1.2.14.jar:C:\MyRepo\org\apache\commons\commons-math\2.2\commons-math-2.2.jar:C:\MyRepo\com\rubiconproject\oss\jchronic\0.2.6\jchronic-0.2.6.jar:C:\MyRepo\junit\junit\4.8.1\junit-4.8.1.jar:C:\MyRepo\com\thoughtworks\paranamer\paranamer\2.5\paranamer-2.5.jar:C:\MyRepo\net\vidageek\mirror\1.6.1\mirror-1.6.1.jar:C:\MyRepo\com\machinezoo\noexception\noexception\1.7.1\noexception-1.7.1.jar:C:\MyRepo\org\aeonbits\owner\owner\1.0.12\owner-1.0.12.jar:C:\MyRepo\org\awaitility\awaitility\4.1.1\awaitility-4.1.1.jar:C:\MyRepo\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\MyRepo\io\appium\java-client\8.3.0\java-client-8.3.0.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar:C:\MyRepo\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\MyRepo\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar:C:\MyRepo\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar:C:\MyRepo\com\google\auto\auto-common\1.2\auto-common-1.2.jar:C:\MyRepo\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar:C:\MyRepo\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar:C:\MyRepo\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar:C:\MyRepo\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar:C:\MyRepo\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar:C:\MyRepo\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar:C:\MyRepo\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar:C:\MyRepo\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar:C:\MyRepo\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar:C:\MyRepo\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar:C:\MyRepo\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:C:\MyRepo\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:C:\MyRepo\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar:C:\MyRepo\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar:C:\MyRepo\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar:C:\MyRepo\com\google\code\gson\gson\2.10\gson-2.10.jar:C:\MyRepo\cglib\cglib\3.3.0\cglib-3.3.0.jar:C:\MyRepo\org\ow2\asm\asm\7.1\asm-7.1.jar:C:\MyRepo\commons-validator\commons-validator\1.7\commons-validator-1.7.jar:C:\MyRepo\commons-digester\commons-digester\2.1\commons-digester-2.1.jar:C:\MyRepo\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar:C:\MyRepo\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar:C:\MyRepo\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar:C:\MyRepo\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar:C:\MyRepo\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\MyRepo\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\MyRepo\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\MyRepo\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar:C:\MyRepo\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar:C:\MyRepo\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar:C:\MyRepo\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\MyRepo\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\MyRepo\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\MyRepo\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\MyRepo\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\MyRepo\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar:C:\MyRepo\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar:C:\MyRepo\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar:C:\MyRepo\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar:C:\MyRepo\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar:C:\MyRepo\org\assertj\assertj-core\3.21.0\assertj-core-3.21.0.jar:C:\MyRepo\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar:C:\MyRepo\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar:C:\MyRepo\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar:C:\MyRepo\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar:C:\MyRepo\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar:C:\MyRepo\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar:C:\MyRepo\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\MyRepo\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\MyRepo\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar:C:\MyRepo\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar:C:\MyRepo\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\MyRepo\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar:C:\MyRepo\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar:C:\MyRepo\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar:C:\MyRepo\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar:C:\MyRepo\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar:C:\MyRepo\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar:C:\MyRepo\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\MyRepo\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\MyRepo\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar:C:\MyRepo\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar:C:\MyRepo\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\MyRepo\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\MyRepo\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\MyRepo\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\MyRepo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\MyRepo\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\MyRepo\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\MyRepo\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar:C:\MyRepo\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar:C:\MyRepo\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar:C:\MyRepo\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar:C:\MyRepo\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar org.testng.remote.RemoteTestNG -serport 50410 -protocol json -d C:\Users\santo\eclipse-workspace-3\MasterFramework-main\test-output C:\Users\santo\eclipse-workspace-3\MasterFramework-main\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2023-03-16 13:10:41.761
+!MESSAGE Stop the socket server as it's still pending on accepting the client
+!SESSION 2023-03-16 13:14:22.329 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-16 13:14:35.663
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-16 13:14:35.663
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-16 13:14:35.663
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-16 13:14:39.481
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\santo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sf.eclipsecs.core 4 0 2023-03-16 13:15:01.509
+!MESSAGE Checkstyle-Plugin: cannot initialize module SuppressionFilter - Unable to find: config/checkstyle/suppressions.xml
+!STACK 0
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module SuppressionFilter - Unable to find: config/checkstyle/suppressions.xml
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:481)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:201)
+	at net.sf.eclipsecs.core.builder.CheckerFactory.createCheckerInternal(CheckerFactory.java:238)
+	at net.sf.eclipsecs.core.builder.CheckerFactory.createChecker(CheckerFactory.java:122)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:139)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:307)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.build(CheckstyleBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1024)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:254)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:311)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:400)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:514)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:462)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:544)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Unable to find: config/checkstyle/suppressions.xml
+	at com.puppycrawl.tools.checkstyle.utils.CommonUtil.getResourceFromClassPath(CommonUtil.java:462)
+	at com.puppycrawl.tools.checkstyle.utils.CommonUtil.getFilepathOrClasspathUri(CommonUtil.java:439)
+	at com.puppycrawl.tools.checkstyle.utils.CommonUtil.getUriByFilename(CommonUtil.java:390)
+	at com.puppycrawl.tools.checkstyle.filters.SuppressionsLoader.loadSuppressions(SuppressionsLoader.java:222)
+	at com.puppycrawl.tools.checkstyle.filters.SuppressionFilter.finishLocalSetup(SuppressionFilter.java:274)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:197)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:476)
+	... 19 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:15:01.601
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-03-16 13:15:01.612
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY net.sf.eclipsecs.ui 4 0 2023-03-16 13:17:39.191
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop() of bundle net.sf.eclipsecs.ui.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:895)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop(CheckstyleUIPlugin.java:128)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	... 13 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.ISharedImages.getImageDescriptor(String)" because the return value of "org.eclipse.ui.IWorkbench.getSharedImages()" is null
+	at net.sf.eclipsecs.ui.CheckstyleUIPluginImages.<clinit>(CheckstyleUIPluginImages.java:108)
+	... 18 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop(CheckstyleUIPlugin.java:128)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.ISharedImages.getImageDescriptor(String)" because the return value of "org.eclipse.ui.IWorkbench.getSharedImages()" is null
+	at net.sf.eclipsecs.ui.CheckstyleUIPluginImages.<clinit>(CheckstyleUIPluginImages.java:108)
+	... 18 more
+!SESSION 2023-03-23 15:08:14.094 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-03-23 15:08:33.542
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-23 15:08:33.542
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-23 15:08:33.542
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-23 15:08:38.235
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\santo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-03-23 15:08:49.336
+!MESSAGE An internal error occurred during: "https://www.eclipse.org/setups/setups.zip".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:187)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:250)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getLogService(Activator.java:202)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.log(Activator.java:213)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:200)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:199)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY net.sf.eclipsecs.ui 4 0 2023-03-23 15:08:49.380
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop() of bundle net.sf.eclipsecs.ui.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:895)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop(CheckstyleUIPlugin.java:128)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	... 13 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.ISharedImages.getImageDescriptor(String)" because the return value of "org.eclipse.ui.IWorkbench.getSharedImages()" is null
+	at net.sf.eclipsecs.ui.CheckstyleUIPluginImages.<clinit>(CheckstyleUIPluginImages.java:108)
+	... 18 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop(CheckstyleUIPlugin.java:128)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.ISharedImages.getImageDescriptor(String)" because the return value of "org.eclipse.ui.IWorkbench.getSharedImages()" is null
+	at net.sf.eclipsecs.ui.CheckstyleUIPluginImages.<clinit>(CheckstyleUIPluginImages.java:108)
+	... 18 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-03-23 15:08:50.274
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.internal.ui.EarlyStart$1
+!SESSION 2023-04-03 11:06:41.772 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\santo\eclipse-workspace-3 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2023-04-03 11:06:47.737
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-03 11:06:47.738
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-04-03 11:06:47.738
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-04-03 11:06:51.458
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\santo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY net.sf.eclipsecs.ui 4 0 2023-04-03 11:07:12.458
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop() of bundle net.sf.eclipsecs.ui.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:895)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ExceptionInInitializerError
+	at net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop(CheckstyleUIPlugin.java:128)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	... 13 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.ISharedImages.getImageDescriptor(String)" because the return value of "org.eclipse.ui.IWorkbench.getSharedImages()" is null
+	at net.sf.eclipsecs.ui.CheckstyleUIPluginImages.<clinit>(CheckstyleUIPluginImages.java:108)
+	... 18 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at net.sf.eclipsecs.ui.CheckstyleUIPlugin.stop(CheckstyleUIPlugin.java:128)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:875)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:867)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1046)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:376)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1893)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1768)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:208)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:226)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.ISharedImages.getImageDescriptor(String)" because the return value of "org.eclipse.ui.IWorkbench.getSharedImages()" is null
+	at net.sf.eclipsecs.ui.CheckstyleUIPluginImages.<clinit>(CheckstyleUIPluginImages.java:108)
+	... 18 more
